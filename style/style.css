@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: rgba(252, 245, 245, 1);
+}
+header {
+  margin: 10px 20px;
+  height: 5vh;
+  width: 100%;
+  display: flex;
+}
+.logo {
+  font-size: 1.5em;
+  width: 50%;
+}
+.mainNav {
+  display: flex;
+  width: 25%;
+  position: absolute;
+  right: 20px;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.nav {
+  text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+  .logo {
+    padding: 10px 0;
+    background: rgb(255, 213, 213);
+    width: auto;
+    text-align: center;
+  }
+  header {
+    padding-top: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .mainNav {
+    padding-top: 10px;
+    justify-content: space-evenly;
+    width: auto;
+    position: static;
+  }
+}
