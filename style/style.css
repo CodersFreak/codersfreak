@@ -3,11 +3,11 @@
   margin: 0;
 }
 body {
-  background: rgb(238, 233, 233);
+  background: rgb(251, 245, 243);
 }
 header {
   margin: 10px 20px;
-  height: 5vh;
+  height: 15vh;
   width: 100%;
   display: flex;
 }
