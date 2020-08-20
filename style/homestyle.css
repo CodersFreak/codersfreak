@@ -1,4 +1,14 @@
-
-.heading{
+.heading {
+  font-size: 2em;
   text-align: center;
+  color: rgb(137, 133, 255);
+}
+.big {
+  font-size: 2em;
+}
+.test {
+  background: chartreuse;
+  margin: 20px auto;
+  width: 100px;
+  height: 100px;
 }
