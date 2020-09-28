@@ -1,14 +1,35 @@
 .heading {
+
   font-size: 2em;
   text-align: center;
   color: rgb(137, 133, 255);
 }
-.big {
-  font-size: 2em;
-}
+
 .test {
   background: chartreuse;
   margin: 20px auto;
   width: 100px;
   height: 100px;
+}
+
+.home h1 span {
+  font-size: 0.5em;
+}
+
+.side {
+  position: absolute;
+  width: 500px;
+  right: 10vw;
+}
+
+h1 {
+  padding-top: 100px;
+  padding-left: 50px;
+
+}
+
+@media screen and (max-width: 500px) {
+  .side {
+    display: none;
+  }
 }

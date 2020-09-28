@@ -2,19 +2,40 @@
   padding: 0;
   margin: 0;
 }
+
 body {
-  background: rgb(251, 245, 243);
-}
-header {
   margin: 10px 20px;
+  background: #4DA0B0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D39D38, #4DA0B0);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+header {
+
   height: 15vh;
   width: auto;
   display: flex;
 }
+
+.projectSpan {
+  font-size: 200px;
+}
+
+
 .logo {
   font-size: 1.5em;
   width: 50%;
 }
+
+.logo_svg {
+  width: 45px;
+}
+
 .mainNav {
   display: flex;
   width: 25%;
@@ -23,9 +44,11 @@ header {
   list-style-type: none;
   justify-content: space-between;
 }
+
 .nav {
   text-decoration: none;
 }
+
 @media screen and (max-width: 500px) {
   .logo {
     padding: 10px 0;
@@ -33,6 +56,7 @@ header {
     width: auto;
     text-align: center;
   }
+
   header {
     padding-top: 10px;
     box-sizing: border-box;
@@ -40,10 +64,32 @@ header {
     flex-direction: column;
     margin: 0;
   }
+
   .mainNav {
     padding-top: 10px;
     justify-content: space-evenly;
     width: auto;
     position: static;
   }
+}
+
+.nav:hover {
+  color: black;
+}
+
+.active {
+  border-bottom: 4px solid rgb(184, 131, 235);
+  padding-bottom: 5px;
+}
+
+div {
+  padding: px left 0 what the fukc;
+}
+
+footer {
+  margin: 0;
+  width: 95vw;
+  position: absolute;
+  bottom: 5px;
+  text-align: center;
 }
