@@ -18,17 +18,54 @@
 
 .side {
   position: absolute;
-  width: 500px;
+  width: 400px;
   right: 10vw;
+  top: 10vh;
 }
 
 h1 {
-  padding-top: 100px;
+  padding: 100px 0;
   padding-left: 50px;
 
 }
 
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.join {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+}
+
+.join .social .ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.join .social li {
+  list-style-type: none;
+  text-align: center;
+  margin: 5px auto;
+  border-radius: 5px;
+
+  padding: 5px;
+  width: 200px;
+  background-color: rgb(17, 243, 137);
+}
+
 @media screen and (max-width: 500px) {
+  h1 {
+    padding: 0;
+    text-align: center;
+  }
+
   .side {
     display: none;
   }
