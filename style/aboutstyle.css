@@ -1,5 +1,5 @@
 img {
-    margin: 50px auto;
+    margin: 0 auto;
     width: 90%;
 
 }
@@ -10,7 +10,9 @@ img {
 }
 
 .Goal {
+
     font-size: 1.2em;
+    margin-bottom: 50px;
 }
 
 .about {
@@ -19,7 +21,7 @@ img {
     line-height: 20px;
     height: 50vh;
     width: 100%;
-    overflow: hidden;
+
 
 }
 
