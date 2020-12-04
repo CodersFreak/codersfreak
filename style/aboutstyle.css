@@ -1,14 +1,27 @@
+img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.aboutText {
+    font-size: 1.3em;
+
+}
+
+.Goal {
+    font-size: 1.2em;
+}
+
 .about {
-
-
+    padding: 5px;
+    text-align: justify;
+    line-height: 20px;
     height: 50vh;
     width: 100%;
     overflow: hidden;
-    padding: 10px;
-
-
 
 }
+
 
 .about h2 {
     text-decoration: underline;
