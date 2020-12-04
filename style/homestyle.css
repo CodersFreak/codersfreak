@@ -5,15 +5,14 @@
   color: rgb(137, 133, 255);
 }
 
-
-
 .home h1 span {
   font-size: 0.5em;
 }
 
 .side {
+
   position: absolute;
-  width: 400px;
+  width: 70%;
   right: 10vw;
   top: 10vh;
 }
@@ -91,7 +90,11 @@ h2 {
   }
 
   .side {
-    position: static;
+    position: relative;
+    right: 0;
+    left: 15%;
+    top: 60%;
+
   }
 
   .container {

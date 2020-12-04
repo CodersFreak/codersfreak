@@ -1,6 +1,7 @@
 img {
-    margin-left: 50%;
-    transform: translateX(-50%);
+    margin: 50px auto;
+    width: 90%;
+
 }
 
 .aboutText {
