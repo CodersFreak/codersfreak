@@ -12,7 +12,7 @@
 .side {
 
   position: absolute;
-  width: 70%;
+  width: 30%;
   right: 10vw;
   top: 10vh;
 }
@@ -90,6 +90,7 @@ h2 {
   }
 
   .side {
+    width: 70%;
     position: relative;
     right: 0;
     left: 15%;
